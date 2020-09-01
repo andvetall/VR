@@ -1,0 +1,108 @@
+header {
+  position: relative;
+  background: url(../img/header-gray-layer.png) no-repeat, url(../img/4-layers.png) no-repeat;
+  background-position: -134% 0%, -22% 6%;
+  background-size: auto, 30%;
+  .container {
+    overflow: hidden;
+    .round {
+      position: absolute;
+      top: 41vw;
+      right: 0;
+      width: 250px;
+      height: 500px;
+      z-index: 30;
+      img {
+        width: 250px;
+      }
+    }
+    .top {
+      padding: 10px 10px 70px 10px;
+      z-index: 100;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        width: 253px;
+        display: flex;
+        align-items: center;
+        h1 {
+          text-transform: uppercase;
+          color: $color-3;
+          font-size: 3rem;
+          padding-left: 10px;
+        }
+        img {
+          width: 88px;
+        }
+      }
+      .demo {
+        padding: 20px 48px;
+        font-size: 2rem;
+        text-transform: uppercase;
+        transition: all .7s ease;
+        cursor: pointer;
+        z-index: 101;
+        width: 333px;
+      }
+    }
+    .image-main {
+      position: absolute;
+      top: -5%;
+      width: 44%;
+      right: 0;
+      .main-img {
+        position: absolute;
+        right: 0px;
+        top: 0vw;
+        width: 100%;
+      }
+    }
+    .vr {
+      width: 75%;
+      margin: 0 auto;
+      font-size: 2.5rem;
+      line-height: 7px;
+      h2 {
+        color: $color-3;
+        line-height: 40px;
+      }
+      p {
+        color: #4D4D4D;
+        padding-bottom: 80px;
+        line-height: 40px;
+      }
+      .button-wrapper button {
+        padding: 10px 26px;
+        font-size: 2.25rem;
+      }
+    }
+    .solutions {
+      padding: 430px 0 60px 0;
+      text-align: justify;
+      h3 {
+        font-weight: 600;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        color: #14344D;
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        color: #8B8D8F;
+        font-size: 2rem;
+        margin-bottom: 80px;
+      }
+      .see {
+        padding: 10px 40px;
+        width: 230px;
+        display: block;
+        margin: 0 auto;
+        font-size: 2.25rem;
+        transition: all .7s ease;
+        cursor: pointer;
+      }
+    }
+  }
+}

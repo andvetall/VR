@@ -1,0 +1,40 @@
+.fifth-block {
+  position: relative;
+  display: flex;
+  .image {
+    width: 50%;
+  }
+  img {
+    z-index: 20;
+    width: 100%;
+  }
+  .container {
+    z-index: 50;
+    width: 50%;
+    background: #1C75BC;
+    border-radius: 0 40px 40px 0;
+    height: 100%;
+    padding: 125px 0 173px 0;
+    margin-right: 15px;
+    h2 {
+      color: #F6FBFF;
+      font-size: 2.75rem;
+      font-family: 'jost-bold';
+      font-weight: 600;
+    }
+    p {
+      font-family: 'jost-light';
+      padding: 55px 0 80px 0;
+      font-size: 2.25rem;
+      color: #F6FBFF;
+      opacity: 0.7;
+    }
+    a {
+      border-radius: 40px;
+      padding: 15px 80px;
+      background: #fff;
+      color: $color-3;
+      font-size: 2rem;
+    }
+  }
+}

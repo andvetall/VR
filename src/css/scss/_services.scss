@@ -1,0 +1,84 @@
+.seventh-block {
+  background-position: 140% 0%;
+  background-size: 70%;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  padding: 0 0 81px 0;
+  .container {
+    min-width: 320px; 
+    width: 55%;
+    background: url(../img/background7.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: top left;
+    .services {
+      position: relative;
+      width: 100%;
+      padding: 66px 87px 134px 264px;
+       h2 {
+        color: $color-3;
+        font-size: 4rem;
+        font-family: 'jost';
+        font-weight: 400;
+        margin: 104px 0 0 0;
+       }
+       p {
+        font-size: 2.75rem;
+        font-family: 'jost';
+        font-weight: 400;
+        color: #8B9094;
+        padding: 10px 0 28px 0;
+       }
+       a {
+        color: $color-3;
+        font-size: 2.75rem;
+        font-family: 'jost';
+        font-weight: 400;
+       }
+       .figure3{
+         position: absolute;
+         right: -14%;
+          top: 0;
+          width: 132%;
+          z-index: -1;
+       }
+     }
+  }
+  .properties {
+    position: relative;
+    width: 45%;
+    padding: 135px 0 0 0;
+    .rounds4 {
+      width: 80%;
+      height: auto;
+      margin-left: 50px;
+    }
+    .figure1 {
+      position: absolute;
+      top: 208px;
+      left: -292px;
+      height: 1087px;
+      z-index: -5;
+    }
+    .figure2 {
+      position: absolute;
+      top: -337px;
+      left: -308px;
+      z-index: -5;
+    }
+  }
+  &:before {
+    content: "";
+    background: url('../img/Polygon 11.png') no-repeat;
+    background-position: 105% 0;
+    background-size: auto;
+    background-size: cover;
+    width: 20%;
+    height: 37%;
+    position: absolute;
+    top: 154px;
+    right: 0px;
+  }
+}

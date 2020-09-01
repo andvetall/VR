@@ -1,0 +1,33 @@
+@font-face {
+  font-family: jost;
+  src: url(../fonts/Jost-Light.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: jost;
+  src: url(../fonts/Jost-Bold.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: jost;
+  src: url(../fonts/Jost-VariableFont_wght.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: jost-bold;
+  src: url(../fonts/Jost-Bold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: jost-light;
+  src: url(../fonts/Jost-Light.ttf);
+  font-weight: 200;
+}
+
+html {
+  font-family: jost, Arial, Helvetica, sans-serif;
+}

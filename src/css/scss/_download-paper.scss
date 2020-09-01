@@ -1,0 +1,69 @@
+.download-paper {
+  width: 100%;
+  margin: 0 auto;
+  .wrapper-download-paper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .content-download-paper {
+    width: 50%;
+    color: $color-4;
+    background-color: $color-3;
+    border-radius: 75px 0 0 75px;
+    padding: 90px 40px 80px 90px;
+  }
+
+  .img-download-paper {
+    background-image: url(../img/a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    min-height: 500px;
+  }
+
+  .title-download-paper {
+    font-weight: 900;
+    margin-bottom: 80px;
+    line-height: 2;
+  }
+
+  .explain-download-paper {
+    font-weight: 100;
+    margin-bottom: 115px;
+    line-height: 1.5;
+  }
+
+  .img-download-paper img {
+    width: 100%;
+  }
+
+  button {
+    padding: 35px 128px 35px 52px;
+    position: relative;
+    background: $bg-color;
+    color: $color-3;
+    border-radius: 70px;
+    line-height: 1.2;
+    font-weight: 200;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 23px;
+      right: 40px;
+      background: url("../img/cloud-upload-blue.png") no-repeat;
+      background-size: 78px;
+      width: 78px;
+      height: 71px;
+    }
+
+    &:hover {
+      box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.67);
+      ;
+    }
+  }
+}

@@ -1,0 +1,137 @@
+.sixth-block {
+  position: relative;
+  background: url("../img/traingle.png") no-repeat,
+    url("../img/traingle.png") no-repeat;
+  background-size: auto;
+  background-position: -8% 61%, 112% 83%;
+  z-index: 50;
+  .container {
+    position: relative;
+    h2 {
+      text-align: center;
+      font-family: "jost-bold";
+      font-size: 2.75rem;
+      padding: 100px 0 0 0;
+      color: #1c75bc;
+    }
+    .round {
+      background: url("../img/round2.png") no-repeat;
+      background-position: 50% 0%;
+      background-size: 38%;
+      width: 90%;
+      height: 90%;
+      position: absolute;
+      top: 172px;
+      left: 50%;
+      -webkit-transform: translate(-50%);
+      transform: translate(-50%);
+      opacity: 0.2;
+      z-index: -5;
+    }
+    .dates-wrapper {
+      display: flex;
+      flex-direction: column;
+      background: url("../img/line.png") no-repeat;
+      background-position: 50% -55px;
+      background-size: 30px, 38%;
+      .left {
+        display: flex;
+        margin-top: 75px;
+        justify-content: center;
+        .size {
+          width: 45%;
+        }
+        img {
+          padding: 0 10px;
+        }
+        .contentL {
+          display: flex;
+          align-items: center;
+          flex-direction: row-reverse;
+          position: relative;
+          right: 24px;
+          width: 55%;
+          .data:hover {
+            width: 140px;
+            padding: 20px 0;
+            cursor: pointer;
+            transition: 0.7s ease;
+            margin-left: 0px;
+            margin-right: -10px;
+          }
+        }
+      }
+      .right {
+        display: flex;
+        margin-top: 49px;
+        justify-content: center;
+        .size {
+          width: 45%;
+        }
+        img {
+          padding: 0 10px;
+        }
+        .contentR {
+          display: flex;
+          align-items: center;
+
+          width: 45%;
+          position: relative;
+          left: -60px;
+        }
+      }
+    }
+    .data {
+      background: #4d4d4d;
+      padding: 15px 0px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      width: 120px;
+      text-align: center;
+      font-family: "jost";
+      font-weight: 400;
+      font-size: 2rem;
+      color: #ffffff;
+      position: relative;
+      z-index: 50;
+      cursor: pointer;
+      transition: 0.7s ease;
+      &:hover {
+        width: 140px;
+        padding: 20px 0;
+        cursor: pointer;
+        transition: 0.7s ease;
+
+        margin-left: -10px;
+      }
+    }
+    .text {
+      font-family: "jost-light";
+      p {
+        color: #5c5d5e;
+        font-size: 1.75rem;
+        font-family: "jos";
+        font-weight: 100;
+        padding: 0 5px;
+      }
+      img {
+        width: 44px;
+        height: 50px;
+      }
+    }
+    .video {
+      text-align: end;
+    }
+    .pointer {
+      position: absolute;
+      top: 48px;
+      left: 52%;
+      z-index: 50;
+    }
+  }
+}
+
+.text-wrap {
+  width: 70%;
+}

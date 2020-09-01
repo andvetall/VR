@@ -1,0 +1,34 @@
+.second-block {
+  margin: 100px 0 150px 0;
+  .container {
+    padding: 100px 25px 100px 25px;
+    box-shadow: 1px 3px 10px grey;
+    background: $color-1;
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+   &:before {
+    content: "";
+    position: absolute;
+    top: -90px;
+    right: 0px;
+    background: url(../img/2triangles.png) no-repeat;
+    background-size: cover;
+    width: 205px;
+    height: 357px;
+    z-index: -5;
+   }
+   &:after {
+    content: "";
+    position: absolute;
+    top: 92px;
+    right: 0px;
+    background: url(../img/header-gray-layer.png) no-repeat;
+    background-size: cover;
+    width: 1507px;
+    height: 1096px;
+    z-index: -10;
+   }
+}

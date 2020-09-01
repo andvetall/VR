@@ -1,0 +1,78 @@
+.contacts {
+  font-size: 1.5rem;
+  position: relative;
+
+  .wrapper-contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+    background-color: $bg-color-2;
+    background-image: url(../img/blue_triangle.png), url(../img/light_blue_triangle.png);
+    background-repeat: no-repeat;
+    background-position: -13% 20%, 30% 115%;
+    background-size: 20%, 20%;
+  }
+
+  .contact-info {
+    width: 50%;
+    padding: 85px 0;
+  }
+
+  .wrapper-contact-info {
+    width: 82%;
+    margin-left: auto;
+    position: relative;
+    z-index: 999;
+
+    p {
+      margin-bottom: 70px;
+      font-weight: 500;
+    }
+  }
+
+  .contcts-title {
+    font-weight: 900;
+  }
+
+  .map {
+    width: 50%;
+    height: auto;
+    background-color: rgb(180, 180, 180);
+    z-index: 100;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .title-info {
+    color: $color-3;
+  }
+
+  .center-point-circle,
+  .right-triangle {
+    background-repeat: no-repeat;
+    background-size: 20%;
+    width: 100%;
+    height: 129%;
+    position: absolute;
+    top: -12%;
+    right: 0;
+  }
+
+  .center-point-circle {
+    background-image: url(../img/point_circle.png);
+    background-position: 45% 105%;
+
+  }
+
+  .right-triangle {
+    background-image: url(../img/blue_triangle.png);
+    background-position: 109% -22%;
+    z-index: 150;
+  }
+}

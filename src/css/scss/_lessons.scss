@@ -1,0 +1,119 @@
+.third-block {
+  background: url('../img/triangleAndRound.png') no-repeat;
+  background-position: 0% 40%;
+  background-size: 38% 100%;
+}
+
+.third-block .container .wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  .image{
+    width: 50%;
+    text-align: end;
+    img {
+      width: 475px;
+      height: auto;
+    }
+  }
+
+  .textt {
+    width: 43%;
+    font-size: 23px;
+    text-align: center;
+
+    h2 {
+      color: #000000;
+      text-align: center;
+      font-size: 33px;
+      font-family: 'jost';
+      font-weight: 400;
+      line-height: 35px;
+      margin: 0 0 65px 0;
+    }
+
+    button {
+      padding: 23px 80px 23px 40px;
+      position: relative;
+      font-size: 31px;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 19px;
+        right: 12px;
+        background: url("../img/cloud-upload.png") no-repeat;
+        background-size: 48px;
+        width: 50px;
+        height: 50px;
+      }
+
+      &:hover {
+        background: $color-3;
+        color: $color-1;
+        box-shadow: 0px 11px 8px grey;
+      }
+    }
+  }
+}
+
+.virtual-reality {
+  width: 100%;
+  margin: 120px auto 0 auto;
+  .wrapper-virtual-reality {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .content-virtual-reality {
+    width: 50%;
+    color: $color-4;
+    background-color: $color-3;
+    border-radius: 0 75px 75px 0;
+    padding: 90px 40px 80px 90px;
+  }
+
+  .img-virtual-reality {
+    background-image: url(../img/training-delivery-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 50%;
+    min-height: 500px;
+  }
+
+  .title-virtual-reality {
+    font-weight: 900;
+    margin-bottom: 80px;
+    line-height: 2;
+  }
+
+  .explain-virtual-reality {
+    font-weight: 100;
+    margin-bottom: 115px;
+    line-height: 1.5;
+  }
+
+  .img-virtual-reality img {
+    width: 100%;
+  }
+
+  button {
+    padding: 16px 66px;
+    position: relative;
+    background: $bg-color;
+    color: $color-3;
+    border-radius: 70px;
+    line-height: 1.2;
+
+    &:hover {
+      box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.67);
+      ;
+    }
+  }
+}

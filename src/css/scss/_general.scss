@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+html {
+  transition: all .7s ease;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background: #F6F9FC;
+  font-family: 'jost';
+  font-weight: 400;
+}
+
+button {
+  transition: all .7s ease;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: $color-3;
+  border-radius: 40px;
+  color: $color-1;
+
+  &:hover {
+    background: $color-1;
+    color: $color-3;
+    box-shadow: 1px 1px 4px grey;
+  }
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+}

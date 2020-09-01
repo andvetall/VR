@@ -1,0 +1,109 @@
+.fourth-block {
+  position: relative;
+  background: url(../img/round2.png) no-repeat;
+  background-position: 99% -1%;
+  background-size: auto;
+
+  margin-bottom: -190px;
+  .container {
+    .owl-carousel {
+      padding: 60px 0;
+      .owl-stage-outer {
+        height: 900px;
+        padding-top: 100px;
+      }
+      .item {
+        cursor: pointer;
+        padding: 70px 15px;
+        box-shadow: 1px 1px 4px grey;
+        height: 666px;
+        margin: 15px auto;
+        width: 80%;
+        position: relative;
+        border-bottom: 5px solid $color-3;
+        background: #fff;
+        transition: all .7s ease;
+        z-index: 50;
+        text-align: center;
+        .text {
+          color: #747171;
+          line-height: 40px;
+          font-size: 2.25rem;
+          font-family: 'jost';
+          font-weight: 400;
+        }
+        .info1 {
+          color: #000000;
+          font-size: 3.5rem;
+          font-weight: 600;
+          position: absolute;
+          bottom: 110px;
+          left: 50%;
+          transform: translate(-50%);
+          transition: all .8s ease;
+          background: url('../img/Ellipse.png') no-repeat;
+          background-size: 0%;
+        }
+        button {
+          padding: 18px 28px;
+          font-size: 1.5rem;
+          position: absolute;
+          bottom: 45px;
+          left: 50%;
+          transform: translate(-50%);
+        }
+        .round {
+          background: url(../img/Ellipse.png) no-repeat;
+          background-size: 51%;
+          background-position: 50% 112%;
+          transition: .5s ease;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%);
+          bottom: 83px;
+          padding-top: 51px;
+          opacity: 0;
+          z-index: 0;
+          width: 400px;
+          height: 300px;
+        }
+        &:hover {
+          height: 760px;
+          box-shadow: 6px 10px 46px #88C7F9;
+          margin-top: -63px;
+          border-bottom: 5px solid #88C7F9;
+        }
+        &:hover .info1 {
+          color: #88C7F9;
+          opacity: 1;
+          z-index: 50;
+        }
+        &:hover .round {
+          opacity: 1;
+        }
+        &:hover button {
+          bottom: 70px;
+        }
+      }
+    }
+  }
+  .triangles {
+    position: relative;
+    .triangle-left {
+      position: absolute;
+      top: 417px;
+      left: 33px;
+      width: 102px;
+      height: 102px;
+      filter: brightness(0.5);
+    }
+    .triangle-right {
+      position: absolute;
+      top: 5px;
+      right: 582px;
+      width: 102px;
+      height: 102px;
+      filter: brightness(0.5);
+    }
+  }
+}
