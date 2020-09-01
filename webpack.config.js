@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: __dirname + "/src/js/scripts.js",
+  mode: "none",
   output: {
     path: __dirname + "/dist",
     filename: "bundle.js",
@@ -51,4 +52,7 @@ module.exports = {
     contentBase: "./src",
     port: 7700,
   },
+  performance : {
+    hints : false
+} 
 };
